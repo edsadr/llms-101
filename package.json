@@ -7,15 +7,20 @@
     "dev": "node --watch index.mjs",
     "lint": "standard .",
     "lint-fix": "standard --fix .",
-    "01": "node index.mjs"
+    "01": "node index.mjs",
+    "02": "node chat.mjs"
   },
   "author": "edsadr",
   "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "@inquirer/prompts": "^7.0.0",
+    "@langchain/core": "^0.3.13",
+    "@langchain/google-genai": "^0.1.0",
+    "@langchain/openai": "^0.3.11",
     "colorette": "^2.0.20",
     "dotenv": "^16.4.5",
+    "langchain": "^0.3.3",
     "marked": "^11.2.0",
     "marked-terminal": "^7.1.0",
     "openai": "^4.68.1"
