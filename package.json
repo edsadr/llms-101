@@ -1,0 +1,20 @@
+{
+  "name": "llms-101",
+  "version": "1.0.0",
+  "description": "A workshop teaching the basics for LLM-powered applications",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.mjs",
+    "01": "node index.mjs"
+  },
+  "author": "edsadr",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "colorette": "^2.0.20",
+    "dotenv": "^16.4.5",
+    "marked": "^11.2.0",
+    "marked-terminal": "^7.1.0",
+    "openai": "^4.68.1"
+  }
+}
