@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.mjs",
+    "lint": "standard .",
+    "lint-fix": "standard --fix .",
     "01": "node index.mjs"
   },
   "author": "edsadr",
@@ -16,5 +18,8 @@
     "marked": "^11.2.0",
     "marked-terminal": "^7.1.0",
     "openai": "^4.68.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
   }
 }
