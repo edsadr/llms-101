@@ -6,7 +6,7 @@ This repository contains the code of an introductory workshop to LLMs powered ap
 2. Basic chatbot - Running a basic chatbot with Langchain.js - tag: 02
 3. RAG chatbot - Running a chatbot with RAG with Langchain.js - tag: 03
 4. AI Agent - Running an AI Agent with LangGraph.js - tag: 04
-5. AI Web Server - Running an AI Chat Server with Fastify and Langchain.js - tag: 05
+5. AI Web Server - Running an AI Chat Server with Fastify and Langchain.js - this is your homework!
 
 To check the code for every exercise you just need to checkout the desired tag, like: `git checkout 02`
 

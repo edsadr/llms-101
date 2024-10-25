@@ -9,7 +9,8 @@
     "lint-fix": "standard --fix .",
     "01": "node index.mjs",
     "02": "node chat.mjs",
-    "03": "node rag.mjs"
+    "03": "node rag.mjs",
+    "04": "node agent.mjs"
   },
   "author": "edsadr",
   "license": "MIT",
@@ -19,10 +20,12 @@
     "@langchain/community": "^0.3.8",
     "@langchain/core": "^0.3.13",
     "@langchain/google-genai": "^0.1.0",
+    "@langchain/langgraph": "^0.2.17",
     "@langchain/openai": "^0.3.11",
     "cheerio": "^1.0.0",
     "colorette": "^2.0.20",
     "dotenv": "^16.4.5",
+    "duck-duck-scrape": "^2.2.5",
     "langchain": "^0.3.3",
     "marked": "^11.2.0",
     "marked-terminal": "^7.1.0",
